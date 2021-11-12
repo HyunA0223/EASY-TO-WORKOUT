@@ -57,14 +57,10 @@ public class JDBCUtil {
 	}
 
 	// sql 변수 getter
-	public String getSql() {
-		return this.sql;
-	}
+	public String getSql() {	return this.sql;	}
 
 	// sql 변수 setter
-	public void setSql(String sql) {
-		this.sql = sql;
-	}
+	public void setSql(String sql) {	this.sql = sql;	}
 
 	// Object[] 변수 setter
 	public void setParameters(Object[] parameters) {
